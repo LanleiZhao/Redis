@@ -8,6 +8,7 @@ public class testString {
     public static void main(String[] args) {
         Jedis jedis = new Jedis("localhost", 6379);
         jedis.set("key1", "001");
+        jedis.set("key2", "002");
 
     }
 }
